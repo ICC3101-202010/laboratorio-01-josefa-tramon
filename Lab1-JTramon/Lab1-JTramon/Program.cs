@@ -10,6 +10,9 @@ namespace Lab1_JTramon
     {
         static void Main(string[] args)
         {
+            var p1 = new Persona("Bob", "Kunga");
+            Console.Write(p1.name+" lanza "+p1.Lanzar());
+            Console.ReadLine();
         }
     }
 }
